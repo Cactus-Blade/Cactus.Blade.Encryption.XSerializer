@@ -4,11 +4,36 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>Cactus.Blade.Encryption.XSerializer</AssemblyName>
     <RootNamespace>Cactus.Blade.Encryption.XSerializer</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.2.0</Version>
+    <Authors>Mohammad Sadeq Sirjani</Authors>
+    <Product>Cactus.Blade</Product>
+    <Copyright>@Copyright 2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>cactus.png</PackageIcon>
+    <NeutralLanguage>C#</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/Cactus-Blade/Cactus.Blade.Encryption.XSerializer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Cactus-Blade/Cactus.Blade.Encryption.XSerializer</RepositoryUrl>
+    <RepositoryType>https://github.com/Cactus-Blade/Cactus.Blade.Encryption.XSerializer</RepositoryType>
+    <Description>An easy-to-use, easy-to-configure crypto API.</Description>
+    <PackageReleaseNotes>An easy-to-use, easy-to-configure crypto API.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Cactus.Blade.Encryption" Version="1.2.0" />
     <PackageReference Include="XSerializer" Version="0.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Image\cactus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
