@@ -1,0 +1,10 @@
+language: csharp
+mono: none
+dotnet: 2.1.502
+solution: Cactus.Blade.Encryption.XSerializer.sln
+install:
+  - dotnet restore
+script:
+  - dotnet msbuild /p:Configuration=Release Cactus.Blade.Encryption.XSerializer.sln
+  - dotnet restore
+  - dotnet test Encryption.XSerializer.Test/Encryption.XSerializer.Test.csproj
