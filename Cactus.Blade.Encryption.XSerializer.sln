@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{BFA7CE87-0B5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption.XSerializer", "Encryption.XSerializer\Encryption.XSerializer.csproj", "{EC4CB044-E1CC-4A75-9968-C116281571F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{480EAF65-6F73-49FB-A4F4-D68863F086D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption.XSerializer.Test", "Encryption.XSerializer.Test\Encryption.XSerializer.Test.csproj", "{4CF82468-92FD-48C4-8A77-733DFE7EC901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{EC4CB044-E1CC-4A75-9968-C116281571F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4CB044-E1CC-4A75-9968-C116281571F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4CB044-E1CC-4A75-9968-C116281571F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF82468-92FD-48C4-8A77-733DFE7EC901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF82468-92FD-48C4-8A77-733DFE7EC901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF82468-92FD-48C4-8A77-733DFE7EC901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF82468-92FD-48C4-8A77-733DFE7EC901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC4CB044-E1CC-4A75-9968-C116281571F9} = {BFA7CE87-0B5A-4735-8A98-650A2D2393CB}
+		{4CF82468-92FD-48C4-8A77-733DFE7EC901} = {480EAF65-6F73-49FB-A4F4-D68863F086D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6742C612-D53A-49D5-B69C-C00E7074CEA7}
